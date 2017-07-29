@@ -16,12 +16,9 @@
 
 package org.activiti.services.events.converter;
 
-import org.activiti.engine.delegate.event.ActivitiActivityCancelledEvent;
 import org.activiti.engine.delegate.event.ActivitiEvent;
 import org.activiti.engine.delegate.event.ActivitiEventType;
 import org.activiti.services.core.model.events.ProcessEngineEvent;
-import org.activiti.services.events.ActivityCancelledEventImpl;
-import org.activiti.services.events.ActivityCompensateEventImpl;
 import org.springframework.stereotype.Component;
 
 import static org.activiti.engine.delegate.event.ActivitiEventType.ACTIVITY_COMPENSATE;

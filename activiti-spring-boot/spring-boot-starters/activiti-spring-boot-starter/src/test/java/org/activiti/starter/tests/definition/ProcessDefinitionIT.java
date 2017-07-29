@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.activiti.definition;
+package org.activiti.starter.tests.definition;
 
-import org.activiti.keycloak.KeycloakEnabledBaseTestIT;
+import org.activiti.starter.tests.keycloak.KeycloakEnabledBaseTestIT;
 import org.activiti.services.core.model.ProcessDefinition;
 import org.activiti.services.core.model.ProcessDefinitionMeta;
 import org.junit.Test;
